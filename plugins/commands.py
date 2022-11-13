@@ -254,7 +254,7 @@ async def start(client, message):
             InlineKeyboardButton('🔱Group🔰', url='https://t.me/MW_FILM')
         ],
         [
-            InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('✅ CHANNEL', url=f'https://t.me/MWMAIN')
         ]
         ]
     await client.send_cached_media(
