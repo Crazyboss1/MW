@@ -382,11 +382,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('⭕️ Support', url='https://t.me/JOSPSupport'),
-                InlineKeyboardButton('Channel ⭕️', url='https://t.me/JosProjects')
+                InlineKeyboardButton('🔰Group🔱', url='https://t.me/MW_FILMZ'),
+                InlineKeyboardButton('🔱Group🔰', url='https://t.me/MW_FILM')
             ],
             [
-                InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+                InlineKeyboardButton('✅ CHANNEL', url=f'https://t.me/MWMAIN')
             ]
             ]
 
@@ -436,11 +436,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('⭕️ Support', url='https://t.me/JOSPSupport'),
-                InlineKeyboardButton('Channel ⭕️', url='https://t.me/JosProjects')
+                InlineKeyboardButton('🔰Group🔱', url='https://t.me/MW_FILMZ'),
+                InlineKeyboardButton('🔱Group🔰', url='https://t.me/MW_FILM')
             ],
             [
-                InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+                InlineKeyboardButton('✅ CHANNEL', url=f'https://t.me/MWMAIN')
             ]
             ]
         await query.answer()
@@ -462,8 +462,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⭕️ Updates', url='https://t.me/josprojects'),
-            InlineKeyboardButton('Movie Club ⭕️', url='https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('⭕️ Updates', url='https://t.me/MWMAIN'),
+            InlineKeyboardButton('Movie Club ⭕️', url='https://t.me/MW_FILMZ')
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
         ]]
@@ -502,8 +502,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('YouTube', callback_data='music'),
             ],[
             InlineKeyboardButton('Zombies', callback_data='zombies'),
-            InlineKeyboardButton('« Back', callback_data='start'),
-            InlineKeyboardButton('Adult Bot 🔞', url='https://t.me/AdultSearchXBot')
+            InlineKeyboardButton('« Back', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -513,7 +512,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('⭕ Status', url='https://t.me/josprojects/221'),
+            InlineKeyboardButton('⭕ Status', url='https://t.me/MWMAIN'),
             InlineKeyboardButton('Source 🪤', callback_data='source')
             ],[
             InlineKeyboardButton('❓ How to Use ❓', callback_data='help')
